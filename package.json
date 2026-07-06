@@ -1,0 +1,25 @@
+{
+  "name": "personaprojectv2",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000P\u0000e\u0000r\u0000s\u0000o\u0000n\u0000a\u0000-\u0000P\u0000r\u0000o\u0000j\u0000e\u0000c\u0000t\u0000\r\u0000 \u0000",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PranavBhapkar/Persona-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PranavBhapkar/Persona-Project/issues"
+  },
+  "homepage": "https://github.com/PranavBhapkar/Persona-Project#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}

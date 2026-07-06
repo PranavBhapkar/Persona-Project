@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/chat";
+const API_URL = "/chat";
 
 const MODEL = "meta/llama-3.1-8b-instruct";
 
