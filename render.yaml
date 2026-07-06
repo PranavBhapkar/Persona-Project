@@ -1,0 +1,19 @@
+# Exported from Render on 2026-07-06T06:49:58Z
+version: "1"
+projects:
+  - name: PersonaProject
+    environments:
+      - name: Production
+        services:
+          - type: web
+            name: Persona-Project
+            runtime: node
+            repo: https://github.com/PranavBhapkar/Persona-Project
+            plan: free
+            envVars:
+              - key: API_KEY
+                sync: false
+            region: oregon
+            buildCommand: npm
+            startCommand: npm start
+            autoDeployTrigger: commit
